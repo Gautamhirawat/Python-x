@@ -109,4 +109,6 @@ root.mainloop()
 ---
 
 These scripts provide different methods for generating QR codes: one through simple text-based input and the other via a graphical user interface. Users can choose the method that best suits their needs and preferences.
-```
+
+
+
