@@ -14,14 +14,9 @@ def save_qr_code(url, file_path, fill_color, back_color, border_color):
     qr.make(fit=True)
     img = qr.make_image(fill_color=fill_color, back_color=back_color)
 
-    # Convert RGB color to hex format for PIL
-    border_color_hex = "#{:02x}{:02x}{:02x}".format(*border_color)
-    img = img.convert("RGB")
-    img_with_border = Image.new("RGB", (img.width + 2 * qr.border, img.height + 2 * qr.border), border_color_hex)
-    img_with_border.paste(img, (qr.border, qr.border))
-
-    img_with_border.save(file_path)
-
+    img.save(file_path)  
+    
+    
 def get_color(color_label):
     # Here you can use any color picker you prefer or integrate with a color picker library
     # This is just an example using a simple color picker
