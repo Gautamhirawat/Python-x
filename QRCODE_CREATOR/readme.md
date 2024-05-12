@@ -1,5 +1,4 @@
 
-```markdown
 # QR Code Generator
 
 ## Text-Based QR Code Generator
