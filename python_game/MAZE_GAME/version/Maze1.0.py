@@ -91,12 +91,12 @@ class MazeGame:
         self.canvas.create_rectangle(
             start_pos[0] * self.cell_size, start_pos[1] * self.cell_size,
             (start_pos[0] + 1) * self.cell_size, (start_pos[1] + 1) * self.cell_size,
-            fill="red"
+            fill="green" #Changing it 
         )
         self.canvas.create_rectangle(
             end_pos[0] * self.cell_size, end_pos[1] * self.cell_size,
             (end_pos[0] + 1) * self.cell_size, (end_pos[1] + 1) * self.cell_size,
-            fill="green"
+            fill="red" # Changing it 
         )
 
         return start_pos, end_pos
