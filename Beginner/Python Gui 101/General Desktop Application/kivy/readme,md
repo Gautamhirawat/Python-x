@@ -1,0 +1,57 @@
+# Kivy SignUp/Login App
+
+This application is a simple SignUp/Login system built using the Kivy framework in Python. It provides users with the ability to sign up for an account by providing a username, email address, and password, and also to log in to their existing account using their credentials.
+
+## Features
+
+### 1. Sign Up
+- Users can create a new account by providing a unique username, a valid email address, and a secure password.
+- Input fields for username, email, and password are provided with appropriate labels.
+- Upon successful sign up, a pop-up message confirms that the sign-up process was completed successfully.
+
+### 2. Login
+- Registered users can log in to their account using their username and password.
+- Input fields for username and password are provided with appropriate labels.
+- Upon successful login, a pop-up message confirms that the login process was completed successfully.
+
+### 3. Responsive Design
+- The application's layout adjusts dynamically to the window size, ensuring a consistent user experience across different screen sizes and orientations.
+
+## Installation
+
+To run this application, follow these steps:
+
+1. Install the required dependencies using pip:
+
+    ```
+    pip install kivy
+    ```
+
+## Usage
+
+1. Navigate to the directory kivy\login_signup 
+
+2. Run the following command to start the application:
+
+    ```
+    python main.py
+    ```
+
+3. The SignUp window will appear. Enter your details (username, email, and password) and click on the "SignUp" button to create a new account.
+
+4. If you already have an account, click on the "Already have an account" button to switch to the Login window. Enter your username and password, then click on the "Login" button to log in.
+
+## Screenshots
+
+Below are screenshots of the application's SignUp and Login windows:
+
+### SignUp Window
+![SignUp Window](images/signup.png)
+
+### Login Window
+![Login Window](images/login.png)
+
+## Contributing
+
+Contributions to this project are welcome! If you have any suggestions for improvements, feature requests, or bug fixes, feel free to fork this repository and submit a pull request.
+
